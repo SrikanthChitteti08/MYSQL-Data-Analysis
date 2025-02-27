@@ -6,7 +6,8 @@ This project focuses on data analytics using MySQL to derive insights from the M
 ## 📂 Dataset Information : 
 
 ### The dataset consists of 1,68,029 records and 13 columns:
-![Screenshot 2025-02-25 164532](https://github.com/user-attachments/assets/0ebc3680-de64-4de6-877b-89f39ce9eed2)
+
+![Screenshot 2025-02-25 164532](https://github.com/user-attachments/assets/1e2ca4e0-fa56-4657-a9ff-c2ab73e5d77e)
 
 ## MySQL for Data Analytics: Queries & Insights :
 ### 1. Finding the top 5 brands that sold the most number of products?
