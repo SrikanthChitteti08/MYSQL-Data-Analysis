@@ -72,3 +72,8 @@ This project focuses on data analytics using MySQL to derive insights from the M
 **• Brand Performance:** Helps in analyzing how brands like Nike, Adidas, and others perform across various product categories.
 
 **• Price & Quality Correlation:** Finds the best-rated products in different price ranges.
+
+**📌 Technologies Used**
+✅ MySQL
+✅ SQL Queries for Data Analysis
+✅ EDA (Exploratory Data Analysis)
