@@ -98,3 +98,11 @@ Ensure you have MySQL installed on your system. If not, download it from MySQL O
 3. Run the SQL queries in your MySQL workbench or terminal.
 
 4. Analyze the results and visualize insights.
+
+## **📬 Contact**
+
+**For queries or collaboration, reach out via:**
+
+**📧 Email:** srikanthchitteti02@gmail.com
+
+**🔗 GitHub:** SrikanthChitteti08
