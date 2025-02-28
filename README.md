@@ -63,12 +63,12 @@ This project focuses on data analytics using MySQL to derive insights from the M
 
 ## Insights & Key Findings
 
-• Most Sold Brands: The top brands with the highest product sales can be identified using customer reviews and ratings.
+**• Most Sold Brands:** The top brands with the highest product sales can be identified using customer reviews and ratings.
 
-• Worst Rated Products: Identifies products with poor performance to understand customer dissatisfaction.
+**• Worst Rated Products:** Identifies products with poor performance to understand customer dissatisfaction.
 
-• Best Deals & Discounts: Determines which brands offer the best discounts, helping consumers make better purchasing decisions.
+**• Best Deals & Discounts:** Determines which brands offer the best discounts, helping consumers make better purchasing decisions.
 
-• Brand Performance: Helps in analyzing how brands like Nike, Adidas, and others perform across various product categories.
+**• Brand Performance:** Helps in analyzing how brands like Nike, Adidas, and others perform across various product categories.
 
-• Price & Quality Correlation: Finds the best-rated products in different price ranges.
+**• Price & Quality Correlation:** Finds the best-rated products in different price ranges.
