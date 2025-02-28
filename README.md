@@ -59,3 +59,16 @@ This project focuses on data analytics using MySQL to derive insights from the M
     SELECT brand_tag, ROUND(AVG(discounted_price))  AS 'average_price' FROM products 
         GROUP BY brand_tag
     ORDER BY average_price ASC LIMIT 5;
+
+
+## Insights & Key Findings
+
+° Most Sold Brands: The top brands with the highest product sales can be identified using customer reviews and ratings.
+
+Worst Rated Products: Identifies products with poor performance to understand customer dissatisfaction.
+
+Best Deals & Discounts: Determines which brands offer the best discounts, helping consumers make better purchasing decisions.
+
+Brand Performance: Helps in analyzing how brands like Nike, Adidas, and others perform across various product categories.
+
+Price & Quality Correlation: Finds the best-rated products in different price ranges.
