@@ -38,9 +38,12 @@ This project focuses on data analytics using MySQL to derive insights from the M
         GROUP BY brand_tag 
     ORDER BY price DESC LIMIT 10;
 
-### 7. Finding number of products in nike?
-    SELECT COUNT(*) AS 'Total Products' FROM myntra.products WHERE brand_tag = 'nike';
-    SELECT COUNT(DISTINCT product_link) AS 'Total Products' FROM myntra.products WHERE brand_tag = 'nike';
+### 7. List top 5 brands which has sold most number of shirts?
+    SELECT brand_tag, product_tag, SUM(rating_count) as 'orders', AVG(discounted_price) as 'avg_price'
+        FROM products 
+    WHERE product_tag = 'shirts'
+        GROUP BY brand_tag
+    ORDER BY orders DESC LIMIT 5;
 
 ### 8. Finding the top 10 best rated t-shirts from nike or adidas | rating * rating_count?
     SELECT product_name, rating, rating_count, brand_tag, discounted_price, ROUND(rating * rating_count) AS 'comb_rating' FROM myntra.products
@@ -52,7 +55,7 @@ This project focuses on data analytics using MySQL to derive insights from the M
         WHERE product_tag = 'tshirts' AND rating_count > 100
     ORDER BY rating ASC LIMIT 20;
 
-### 10. Finding the average value of brand puma? 
-    SELECT AVG(discounted_price) FROM myntra.products WHERE brand_tag = 'puma';
-    SELECT MIN(discounted_price) FROM myntra.products WHERE brand_tag = 'puma';
-    SELECT MAX(discounted_price) FROM myntra.products WHERE brand_tag = 'puma';
+### 10. Finding the top 5 least expensive brands based on their discounted price?
+    SELECT brand_tag, ROUND(AVG(discounted_price))  AS 'average_price' FROM products 
+        GROUP BY brand_tag
+    ORDER BY average_price ASC LIMIT 5;
