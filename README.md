@@ -74,6 +74,7 @@ This project focuses on data analytics using MySQL to derive insights from the M
 **• Price & Quality Correlation:** Finds the best-rated products in different price ranges.
 
 **📌 Technologies Used**
+
 ✅ MySQL
 ✅ SQL Queries for Data Analysis
 ✅ EDA (Exploratory Data Analysis)
