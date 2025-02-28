@@ -61,7 +61,7 @@ This project focuses on data analytics using MySQL to derive insights from the M
     ORDER BY average_price ASC LIMIT 5;
 
 
-## Insights & Key Findings
+## 📈 **Insights & Key Findings**
 
 **• Most Sold Brands:** The top brands with the highest product sales can be identified using customer reviews and ratings.
 
@@ -80,3 +80,21 @@ This project focuses on data analytics using MySQL to derive insights from the M
 ✅ SQL Queries for Data Analysis
 
 ✅ EDA (Exploratory Data Analysis)
+
+## **🚀 Getting Started**
+
+### **🔹 Prerequisites**
+
+Ensure you have MySQL installed on your system. If not, download it from MySQL Official Site.
+
+## **🔹 Setup & Usage**
+
+**1. The Repository:**
+
+    git clone https://github.com/yourusername/myntra-mysql-analysis.git
+
+2. Import the dataset into MySQL.
+
+3. Run the SQL queries in your MySQL workbench or terminal.
+
+4. Analyze the results and visualize insights.
